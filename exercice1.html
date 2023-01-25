@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XP Gold</title>
+</head>
+<body>
+
+    <div class = "drag" ondrop = "drop(event)" ondragover = "dropNow(event)">
+        <p ondragstart = "dragStart(event)" ondrag = "draggingNow(event)"
+        draggable = "true" id = "dragtarget">This is demo paragraph to be dragged!</p>
+     </div>
+     <div class = "drag" ondrop="drop(event)" ondragover = "dropNow(event)"></div>
+     <div id="box"></div>
+     <p>I Make a Drag paragraph</p>
+
+    <script src="js/exercice1.js"></script>
+    
+</body>
+</html>
